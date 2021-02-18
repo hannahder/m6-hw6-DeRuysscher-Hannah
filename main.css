@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Teko', sans-serif;
+}
+
+header {
+  padding:40px 0;
+  background-color: #5B00B8;
+  color: white;
+  text-align: center;
+  line-height: 1;
+}
+
+header h1 {
+  font-size: 4rem;
+}
+
+h3 {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 2rem;
+  color: #5B00B8;
+}

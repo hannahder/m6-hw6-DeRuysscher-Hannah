@@ -26,3 +26,58 @@ h3 {
   font-size: 2rem;
   color: #5B00B8;
 }
+
+
+.container {
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.box-1, .box-2, .box-3 {
+  width: 300px;
+  height: 300px;
+  border-color: #5B00B8;
+  border-radius: 8px;
+  color: #5B00B8;
+  border-style: solid;
+  border-width: 15px;
+  box-shadow: 20px 20px 27px #B0B0B0;
+  margin: 20px 0;
+}
+
+.box-1 {
+  background-color: #F9FF00;
+}
+
+.box-2 {
+  background-color: #3CF0C5;
+}
+
+.box-3 {
+  background-color: #A9F216;
+}
+
+div h1 {
+  color: #5B00B8;
+  font-size: 12rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
+@media (max-width: 415px) {
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  .box-1, .box-2, .box-3 {
+    width: 200px;
+    height: 200px;
+  }
+
+  div h1 {
+    font-size: 8rem;
+  }
+}

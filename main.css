@@ -28,7 +28,7 @@ h3 {
 }
 
 
-.container {
+#container {
   max-width: 1500px;
   margin: auto;
   display: flex;
@@ -65,6 +65,14 @@ div h1 {
   font-size: 12rem;
   text-align: center;
   padding-top: 20px;
+}
+
+.condensed {
+  display: none;
+}
+
+.show {
+  display: block;
 }
 
 @media (max-width: 415px) {

@@ -60,13 +60,17 @@ h3 {
   background-color: #A9F216;
 }
 
-.condensed {
+
+
+a {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.tohide {
   display: none;
 }
 
-.show {
-  display: block;
-}
 
 div h1 {
   color: #5B00B8;

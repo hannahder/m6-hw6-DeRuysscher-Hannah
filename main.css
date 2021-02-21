@@ -60,13 +60,6 @@ h3 {
   background-color: #A9F216;
 }
 
-div h1 {
-  color: #5B00B8;
-  font-size: 12rem;
-  text-align: center;
-  padding-top: 20px;
-}
-
 .condensed {
   display: none;
 }
@@ -74,6 +67,14 @@ div h1 {
 .show {
   display: block;
 }
+
+div h1 {
+  color: #5B00B8;
+  font-size: 12rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
 
 @media (max-width: 415px) {
   h3 {

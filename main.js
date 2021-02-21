@@ -58,12 +58,12 @@
 //5th QUESTION:
 
 var navLinks = document.getElementsByClassName('box');
-var dropdowns = document.getElementsByClassName('dropdown');
+var hidden = document.getElementsByClassName('condensed');
 
 function toggleDropdown() {
-  for(i=0; i < dropdowns.length; i++) {
-  dropdowns[i].classList.toggle('show');
-  }
+for(i=0; i < navLinks.length; i++) {
+  hidden[i].classList.toggle('show');
+  };
 };
 
 for(i=0; i < navLinks.length; i++) {
